@@ -1,0 +1,69 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+.datesC,
+.weekC {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  gap: 1rem;
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+}
+
+.weekC {
+  gap: 35px !important;
+}
+
+.dates {
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.valid {
+  cursor: pointer;
+  padding: 15px;
+  border: solid 2px lightblue;
+  border-radius: 50%;
+}
+
+.highlighted {
+  background: darkblue;
+  color: white;
+  border-radius: 50%;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  margin: 0px 5px;
+  border-radius: 18px;
+  text-transform: uppercase;
+  background-color: #bab9b9;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.submit {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.close {
+  background-color: red;
+  color: white;
+}
+
+.weekName {
+  color: darkblue;
+  font-weight: 600;
+}
+
+h1 {
+  color: slateblue;
+}
